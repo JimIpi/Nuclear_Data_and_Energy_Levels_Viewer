@@ -17,19 +17,29 @@ Make sure you have Python installed. Then, install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## 💻 Usage
-Run the script from your terminal: python nuclear_viewer.py
 
-To analyze a different isotope, open nuclear_viewer.py and modify the execution block at the bottom of the script:
+Run the script from your terminal:
+
+```bash
+python nuclear_viewer.py
+```
+
+To analyze a different isotope, open `nuclear_viewer.py` and modify the execution block at the bottom of the script:
+
+```python
 if __name__ == "__main__":
     target = "16O"       # Change to your desired isotope (e.g., "235U")
     max_energy = 15      # Adjust the max energy for the plot in MeV
     
     print_isotope_info(target)
     plot_energy_levels(target, max_energy)
+```
 
 ## 📊 Example Output
+
 Here is an example of the energy level diagram generated for Carbon-12:
 
 ![Carbon-12 Energy Levels](carbon12_plot.png)
