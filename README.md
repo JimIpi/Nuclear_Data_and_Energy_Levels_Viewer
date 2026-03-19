@@ -16,7 +16,7 @@ A Python tool that interacts with the [IAEA LiveChart API](https://www-nds.iaea.
 Make sure you have Python installed. Then, install the required dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt ```
 
 
 ## 💻 Usage
