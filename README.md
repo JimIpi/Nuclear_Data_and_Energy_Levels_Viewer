@@ -30,3 +30,8 @@ if __name__ == "__main__":
     print_isotope_info(target)
     plot_energy_levels(target, max_energy)
 
+## 📊 Example Output
+
+Here is an example of the energy level diagram generated for Carbon-12:
+
+![Carbon-12 Energy Levels](carbon12_plot.png)
