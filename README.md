@@ -16,11 +16,9 @@ A Python tool that interacts with the [IAEA LiveChart API](https://www-nds.iaea.
 Make sure you have Python installed. Then, install the required dependencies:
 
 ```bash
-pip install -r requirements.txt ```
-
+pip install -r requirements.txt
 
 ## 💻 Usage
-
 Run the script from your terminal: python nuclear_viewer.py
 
 To analyze a different isotope, open nuclear_viewer.py and modify the execution block at the bottom of the script:
@@ -32,7 +30,6 @@ if __name__ == "__main__":
     plot_energy_levels(target, max_energy)
 
 ## 📊 Example Output
-
 Here is an example of the energy level diagram generated for Carbon-12:
 
 ![Carbon-12 Energy Levels](carbon12_plot.png)
