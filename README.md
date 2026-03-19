@@ -20,6 +20,7 @@ pip install -r requirements.txt
 
 
 ## 💻 Usage
+
 Run the script from your terminal: python nuclear_viewer.py
 
 To analyze a different isotope, open nuclear_viewer.py and modify the execution block at the bottom of the script:
